@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04ADE5CF238893F00095454A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADE5CE238893F00095454A /* AppDelegate.swift */; };
+		04ADE5D1238893F00095454A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADE5D0238893F00095454A /* SceneDelegate.swift */; };
+		04ADE5D3238893F00095454A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADE5D2238893F00095454A /* ViewController.swift */; };
+		04ADE5D6238893F00095454A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ADE5D4238893F00095454A /* Main.storyboard */; };
+		04ADE5D8238893F20095454A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ADE5D7238893F20095454A /* Assets.xcassets */; };
+		04ADE5DB238893F20095454A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ADE5D9238893F20095454A /* LaunchScreen.storyboard */; };
+		04ADE5E6238893F30095454A /* SmartMenu1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADE5E5238893F30095454A /* SmartMenu1_0Tests.swift */; };
+		04ADE5F1238893F30095454A /* SmartMenu1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADE5F0238893F30095454A /* SmartMenu1_0UITests.swift */; };
+		703E2504350D6C17B50B3958 /* Pods_SmartMenu1_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E6DF07B536B4D1120DD862 /* Pods_SmartMenu1_0Tests.framework */; };
+		9566A07026FB6CF5BAEBE931 /* Pods_SmartMenu1_0_SmartMenu1_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BADABBF3AC27F216F34113 /* Pods_SmartMenu1_0_SmartMenu1_0UITests.framework */; };
+		A40A230CAAC054CA28BA48E1 /* Pods_SmartMenu1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C45260940405F2D669DE26 /* Pods_SmartMenu1_0.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04ADE5E2238893F30095454A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ADE5C3238893F00095454A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ADE5CA238893F00095454A;
+			remoteInfo = SmartMenu1.0;
+		};
+		04ADE5ED238893F30095454A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04ADE5C3238893F00095454A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04ADE5CA238893F00095454A;
+			remoteInfo = SmartMenu1.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04ADE5CB238893F00095454A /* SmartMenu1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartMenu1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ADE5CE238893F00095454A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04ADE5D0238893F00095454A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04ADE5D2238893F00095454A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04ADE5D5238893F00095454A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04ADE5D7238893F20095454A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04ADE5DA238893F20095454A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04ADE5DC238893F20095454A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ADE5E1238893F30095454A /* SmartMenu1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartMenu1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ADE5E5238893F30095454A /* SmartMenu1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMenu1_0Tests.swift; sourceTree = "<group>"; };
+		04ADE5E7238893F30095454A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ADE5EC238893F30095454A /* SmartMenu1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartMenu1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ADE5F0238893F30095454A /* SmartMenu1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMenu1_0UITests.swift; sourceTree = "<group>"; };
+		04ADE5F2238893F30095454A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074923C54EFE62F599B13EA7 /* Pods-SmartMenu1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMenu1.0.release.xcconfig"; path = "Target Support Files/Pods-SmartMenu1.0/Pods-SmartMenu1.0.release.xcconfig"; sourceTree = "<group>"; };
+		1A7FFCB774966E93A67BDC13 /* Pods-SmartMenu1.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMenu1.0Tests.debug.xcconfig"; path = "Target Support Files/Pods-SmartMenu1.0Tests/Pods-SmartMenu1.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56D599BB1640353EC1BA480F /* Pods-SmartMenu1.0-SmartMenu1.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMenu1.0-SmartMenu1.0UITests.debug.xcconfig"; path = "Target Support Files/Pods-SmartMenu1.0-SmartMenu1.0UITests/Pods-SmartMenu1.0-SmartMenu1.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84BADABBF3AC27F216F34113 /* Pods_SmartMenu1_0_SmartMenu1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartMenu1_0_SmartMenu1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E6DF07B536B4D1120DD862 /* Pods_SmartMenu1_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartMenu1_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E58F9A0B5D37D97B2D94DE4 /* Pods-SmartMenu1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMenu1.0.debug.xcconfig"; path = "Target Support Files/Pods-SmartMenu1.0/Pods-SmartMenu1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		9CDA51EC5ADBC9A22ABB3EC8 /* Pods-SmartMenu1.0-SmartMenu1.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMenu1.0-SmartMenu1.0UITests.release.xcconfig"; path = "Target Support Files/Pods-SmartMenu1.0-SmartMenu1.0UITests/Pods-SmartMenu1.0-SmartMenu1.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		A2D5E0DCEFF82F610A33FBEB /* Pods-SmartMenu1.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMenu1.0Tests.release.xcconfig"; path = "Target Support Files/Pods-SmartMenu1.0Tests/Pods-SmartMenu1.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C7C45260940405F2D669DE26 /* Pods_SmartMenu1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartMenu1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04ADE5C8238893F00095454A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A230CAAC054CA28BA48E1 /* Pods_SmartMenu1_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ADE5DE238893F30095454A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703E2504350D6C17B50B3958 /* Pods_SmartMenu1_0Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ADE5E9238893F30095454A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9566A07026FB6CF5BAEBE931 /* Pods_SmartMenu1_0_SmartMenu1_0UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04ADE5C2238893F00095454A = {
+			isa = PBXGroup;
+			children = (
+				04ADE5CD238893F00095454A /* SmartMenu1.0 */,
+				04ADE5E4238893F30095454A /* SmartMenu1.0Tests */,
+				04ADE5EF238893F30095454A /* SmartMenu1.0UITests */,
+				04ADE5CC238893F00095454A /* Products */,
+				390BC4FADC5E5E4AF2EC4719 /* Pods */,
+				E5B269D760F5ED7FAD5B89F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04ADE5CC238893F00095454A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04ADE5CB238893F00095454A /* SmartMenu1.0.app */,
+				04ADE5E1238893F30095454A /* SmartMenu1.0Tests.xctest */,
+				04ADE5EC238893F30095454A /* SmartMenu1.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04ADE5CD238893F00095454A /* SmartMenu1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				04ADE5CE238893F00095454A /* AppDelegate.swift */,
+				04ADE5D0238893F00095454A /* SceneDelegate.swift */,
+				04ADE5D2238893F00095454A /* ViewController.swift */,
+				04ADE5D4238893F00095454A /* Main.storyboard */,
+				04ADE5D7238893F20095454A /* Assets.xcassets */,
+				04ADE5D9238893F20095454A /* LaunchScreen.storyboard */,
+				04ADE5DC238893F20095454A /* Info.plist */,
+			);
+			path = SmartMenu1.0;
+			sourceTree = "<group>";
+		};
+		04ADE5E4238893F30095454A /* SmartMenu1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04ADE5E5238893F30095454A /* SmartMenu1_0Tests.swift */,
+				04ADE5E7238893F30095454A /* Info.plist */,
+			);
+			path = SmartMenu1.0Tests;
+			sourceTree = "<group>";
+		};
+		04ADE5EF238893F30095454A /* SmartMenu1.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04ADE5F0238893F30095454A /* SmartMenu1_0UITests.swift */,
+				04ADE5F2238893F30095454A /* Info.plist */,
+			);
+			path = SmartMenu1.0UITests;
+			sourceTree = "<group>";
+		};
+		390BC4FADC5E5E4AF2EC4719 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E58F9A0B5D37D97B2D94DE4 /* Pods-SmartMenu1.0.debug.xcconfig */,
+				074923C54EFE62F599B13EA7 /* Pods-SmartMenu1.0.release.xcconfig */,
+				56D599BB1640353EC1BA480F /* Pods-SmartMenu1.0-SmartMenu1.0UITests.debug.xcconfig */,
+				9CDA51EC5ADBC9A22ABB3EC8 /* Pods-SmartMenu1.0-SmartMenu1.0UITests.release.xcconfig */,
+				1A7FFCB774966E93A67BDC13 /* Pods-SmartMenu1.0Tests.debug.xcconfig */,
+				A2D5E0DCEFF82F610A33FBEB /* Pods-SmartMenu1.0Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5B269D760F5ED7FAD5B89F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7C45260940405F2D669DE26 /* Pods_SmartMenu1_0.framework */,
+				84BADABBF3AC27F216F34113 /* Pods_SmartMenu1_0_SmartMenu1_0UITests.framework */,
+				85E6DF07B536B4D1120DD862 /* Pods_SmartMenu1_0Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04ADE5CA238893F00095454A /* SmartMenu1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ADE5F5238893F30095454A /* Build configuration list for PBXNativeTarget "SmartMenu1.0" */;
+			buildPhases = (
+				9F0558D2CB9BEBF157D2A067 /* [CP] Check Pods Manifest.lock */,
+				04ADE5C7238893F00095454A /* Sources */,
+				04ADE5C8238893F00095454A /* Frameworks */,
+				04ADE5C9238893F00095454A /* Resources */,
+				4BCF7D6BE18B7FB21330BCA4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartMenu1.0;
+			productName = SmartMenu1.0;
+			productReference = 04ADE5CB238893F00095454A /* SmartMenu1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04ADE5E0238893F30095454A /* SmartMenu1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ADE5F8238893F30095454A /* Build configuration list for PBXNativeTarget "SmartMenu1.0Tests" */;
+			buildPhases = (
+				963C0709D1644ECAB696E5AF /* [CP] Check Pods Manifest.lock */,
+				04ADE5DD238893F30095454A /* Sources */,
+				04ADE5DE238893F30095454A /* Frameworks */,
+				04ADE5DF238893F30095454A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ADE5E3238893F30095454A /* PBXTargetDependency */,
+			);
+			name = SmartMenu1.0Tests;
+			productName = SmartMenu1.0Tests;
+			productReference = 04ADE5E1238893F30095454A /* SmartMenu1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04ADE5EB238893F30095454A /* SmartMenu1.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ADE5FB238893F30095454A /* Build configuration list for PBXNativeTarget "SmartMenu1.0UITests" */;
+			buildPhases = (
+				E36BC4D034337D411983FFE3 /* [CP] Check Pods Manifest.lock */,
+				04ADE5E8238893F30095454A /* Sources */,
+				04ADE5E9238893F30095454A /* Frameworks */,
+				04ADE5EA238893F30095454A /* Resources */,
+				15F70C6F38F4016E5FA4F9B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04ADE5EE238893F30095454A /* PBXTargetDependency */,
+			);
+			name = SmartMenu1.0UITests;
+			productName = SmartMenu1.0UITests;
+			productReference = 04ADE5EC238893F30095454A /* SmartMenu1.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04ADE5C3238893F00095454A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04ADE5CA238893F00095454A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					04ADE5E0238893F30095454A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 04ADE5CA238893F00095454A;
+					};
+					04ADE5EB238893F30095454A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 04ADE5CA238893F00095454A;
+					};
+				};
+			};
+			buildConfigurationList = 04ADE5C6238893F00095454A /* Build configuration list for PBXProject "SmartMenu1.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04ADE5C2238893F00095454A;
+			productRefGroup = 04ADE5CC238893F00095454A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04ADE5CA238893F00095454A /* SmartMenu1.0 */,
+				04ADE5E0238893F30095454A /* SmartMenu1.0Tests */,
+				04ADE5EB238893F30095454A /* SmartMenu1.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04ADE5C9238893F00095454A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ADE5DB238893F20095454A /* LaunchScreen.storyboard in Resources */,
+				04ADE5D8238893F20095454A /* Assets.xcassets in Resources */,
+				04ADE5D6238893F00095454A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ADE5DF238893F30095454A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ADE5EA238893F30095454A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15F70C6F38F4016E5FA4F9B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartMenu1.0-SmartMenu1.0UITests/Pods-SmartMenu1.0-SmartMenu1.0UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartMenu1.0-SmartMenu1.0UITests/Pods-SmartMenu1.0-SmartMenu1.0UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartMenu1.0-SmartMenu1.0UITests/Pods-SmartMenu1.0-SmartMenu1.0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BCF7D6BE18B7FB21330BCA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartMenu1.0/Pods-SmartMenu1.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartMenu1.0/Pods-SmartMenu1.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartMenu1.0/Pods-SmartMenu1.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963C0709D1644ECAB696E5AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartMenu1.0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F0558D2CB9BEBF157D2A067 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartMenu1.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E36BC4D034337D411983FFE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartMenu1.0-SmartMenu1.0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04ADE5C7238893F00095454A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ADE5D3238893F00095454A /* ViewController.swift in Sources */,
+				04ADE5CF238893F00095454A /* AppDelegate.swift in Sources */,
+				04ADE5D1238893F00095454A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ADE5DD238893F30095454A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ADE5E6238893F30095454A /* SmartMenu1_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04ADE5E8238893F30095454A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ADE5F1238893F30095454A /* SmartMenu1_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04ADE5E3238893F30095454A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ADE5CA238893F00095454A /* SmartMenu1.0 */;
+			targetProxy = 04ADE5E2238893F30095454A /* PBXContainerItemProxy */;
+		};
+		04ADE5EE238893F30095454A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04ADE5CA238893F00095454A /* SmartMenu1.0 */;
+			targetProxy = 04ADE5ED238893F30095454A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04ADE5D4238893F00095454A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ADE5D5238893F00095454A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04ADE5D9238893F20095454A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ADE5DA238893F20095454A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04ADE5F3238893F30095454A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04ADE5F4238893F30095454A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04ADE5F6238893F30095454A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E58F9A0B5D37D97B2D94DE4 /* Pods-SmartMenu1.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWL75WZNEB;
+				INFOPLIST_FILE = SmartMenu1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leps.SmartMenu1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04ADE5F7238893F30095454A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074923C54EFE62F599B13EA7 /* Pods-SmartMenu1.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWL75WZNEB;
+				INFOPLIST_FILE = SmartMenu1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leps.SmartMenu1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04ADE5F9238893F30095454A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7FFCB774966E93A67BDC13 /* Pods-SmartMenu1.0Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWL75WZNEB;
+				INFOPLIST_FILE = SmartMenu1.0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leps.SmartMenu1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartMenu1.0.app/SmartMenu1.0";
+			};
+			name = Debug;
+		};
+		04ADE5FA238893F30095454A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D5E0DCEFF82F610A33FBEB /* Pods-SmartMenu1.0Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWL75WZNEB;
+				INFOPLIST_FILE = SmartMenu1.0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leps.SmartMenu1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartMenu1.0.app/SmartMenu1.0";
+			};
+			name = Release;
+		};
+		04ADE5FC238893F30095454A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D599BB1640353EC1BA480F /* Pods-SmartMenu1.0-SmartMenu1.0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWL75WZNEB;
+				INFOPLIST_FILE = SmartMenu1.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leps.SmartMenu1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartMenu1.0;
+			};
+			name = Debug;
+		};
+		04ADE5FD238893F30095454A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDA51EC5ADBC9A22ABB3EC8 /* Pods-SmartMenu1.0-SmartMenu1.0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWL75WZNEB;
+				INFOPLIST_FILE = SmartMenu1.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leps.SmartMenu1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartMenu1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04ADE5C6238893F00095454A /* Build configuration list for PBXProject "SmartMenu1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ADE5F3238893F30095454A /* Debug */,
+				04ADE5F4238893F30095454A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ADE5F5238893F30095454A /* Build configuration list for PBXNativeTarget "SmartMenu1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ADE5F6238893F30095454A /* Debug */,
+				04ADE5F7238893F30095454A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ADE5F8238893F30095454A /* Build configuration list for PBXNativeTarget "SmartMenu1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ADE5F9238893F30095454A /* Debug */,
+				04ADE5FA238893F30095454A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ADE5FB238893F30095454A /* Build configuration list for PBXNativeTarget "SmartMenu1.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ADE5FC238893F30095454A /* Debug */,
+				04ADE5FD238893F30095454A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04ADE5C3238893F00095454A /* Project object */;
+}
