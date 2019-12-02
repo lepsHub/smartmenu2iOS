@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Login: UIViewController {
 
     @IBOutlet weak var txtUser: UITextField!
     
@@ -42,6 +42,11 @@ class ViewController: UIViewController {
             let codmsj = response["codmsj"] as? Int
                 if codmsj == 0{
 //                    let usuario = response["usuario"] as? String
+//
+//                    let vc = self.storyboard?.instantiateViewController(identifier: "Menu")as! Menu
+//                    vc.name = self.txtUser.text!.trimmingCharacters(in: .whitespaces)
+//                    self.navigationController?.pushViewController(vc, animated: true)
+                    
                     self.performSegue(withIdentifier: "tomenu", sender: nil)
                 }else{
                     let mensaje = response["mensaje"] as? String
@@ -55,12 +60,12 @@ class ViewController: UIViewController {
         }
     }
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if (segue.identifier == "tomenu") {
-//            let vc = segue.destination as! Menu
-//            vc.name = sender as! String
-//        }
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "tomenu") {
+            let vc = segue.destination as! Menu
+            vc.name = txtUser.text!.trimmingCharacters(in: .whitespaces)
+        }
+    }
     
 }
 

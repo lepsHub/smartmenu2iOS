@@ -19,11 +19,17 @@ class Menu: UIViewController {
     
     @IBAction func pressPedido(_ sender: Any) {
         self.performSegue(withIdentifier: "tolist", sender: nil)
+//        let vc = self.storyboard?.instantiateViewController(identifier: "Pedir")as! Pedir
+//        vc.codigo = name
+//        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     
     @IBAction func pressHistorial(_ sender: Any) {
         self.performSegue(withIdentifier: "tohistorial", sender: nil)
+//        let vc = self.storyboard?.instantiateViewController(identifier: "Historial")as! Historial
+//        vc.codigo = name
+//        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     /*
@@ -36,4 +42,10 @@ class Menu: UIViewController {
     }
     */
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "tohistorial") {
+            let vc = segue.destination as! Historial
+            vc.codigo = name
+        }
+    }
 }

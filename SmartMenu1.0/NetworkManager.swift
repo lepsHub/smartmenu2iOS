@@ -40,6 +40,7 @@ class NetworkManager {
     }()
     
     public func callUrlWithCompletion(urlService:String!, url : String!, params : [String: AnyObject], completion : @escaping CompletionBlock, method: HTTPMethod) {
+        
         let urlString = urlService.appending(url)
         print("REQUEST URL 📩📩📩📩📩📩 -->  \(urlString)")
         print("REQUEST BODY  📩📩📩📩📩📩 --> ",params)
@@ -47,11 +48,22 @@ class NetworkManager {
             "Content-Type": "application/json"
         ]
         
-        manager.request(urlString, method: method, parameters: params, encoding: JSONEncoding.default, headers: headers).responseJSON(completionHandler: { (response) in
-            print("RESPONSE BODY  📩📩📩📩📩📩 --> ",response)
-            completion(response.response?.statusCode as AnyObject, response.result.value as AnyObject)
-//            completion(response.result.)
-        })
+        
+        if method == .get{
+            manager.request(urlString, method: method, parameters: nil, encoding: JSONEncoding.default, headers: headers).responseJSON(completionHandler: { (response) in
+                        print("RESPONSE BODY  📩📩📩📩📩📩 --> ",response)
+                        completion(response.response?.statusCode as AnyObject, response.result.value as AnyObject)
+            //            completion(response.result.)
+                    })
+        }else{
+            manager.request(urlString, method: method, parameters: params, encoding: JSONEncoding.default, headers: headers).responseJSON(completionHandler: { (response) in
+                        print("RESPONSE BODY  📩📩📩📩📩📩 --> ",response)
+                        completion(response.response?.statusCode as AnyObject, response.result.value as AnyObject)
+            //            completion(response.result.)
+                    })
+        }
+        
+        
     }
 
 }

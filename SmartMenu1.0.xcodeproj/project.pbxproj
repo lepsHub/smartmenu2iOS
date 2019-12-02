@@ -16,7 +16,7 @@
 		0486311E238E3DB300DAA02C /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486311D238E3DB300DAA02C /* Loader.swift */; };
 		04ADE5CF238893F00095454A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADE5CE238893F00095454A /* AppDelegate.swift */; };
 		04ADE5D1238893F00095454A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADE5D0238893F00095454A /* SceneDelegate.swift */; };
-		04ADE5D3238893F00095454A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADE5D2238893F00095454A /* ViewController.swift */; };
+		04ADE5D3238893F00095454A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADE5D2238893F00095454A /* Login.swift */; };
 		04ADE5D6238893F00095454A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ADE5D4238893F00095454A /* Main.storyboard */; };
 		04ADE5D8238893F20095454A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ADE5D7238893F20095454A /* Assets.xcassets */; };
 		04ADE5DB238893F20095454A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ADE5D9238893F20095454A /* LaunchScreen.storyboard */; };
@@ -25,6 +25,11 @@
 		04B4965323945EC100C8960A /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4965223945EC100C8960A /* Menu.swift */; };
 		0626FBA142376BEB7F21E40E /* Pods_SmartMenu1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2619F0DD562405A461BA61CA /* Pods_SmartMenu1_0.framework */; };
 		3526EC392A7F26DC1727C1CE /* Pods_SmartMenu1_0_SmartMenu1_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA922DB0A8478C9378A5ACBB /* Pods_SmartMenu1_0_SmartMenu1_0UITests.framework */; };
+		6456AE0E2395C64500286A15 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6456AE0D2395C64500286A15 /* Extension.swift */; };
+		64C03043239577760017EA93 /* Plato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C03042239577760017EA93 /* Plato.swift */; };
+		64C0304523958EA50017EA93 /* Pedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0304423958EA50017EA93 /* Pedido.swift */; };
+		64C03047239591EB0017EA93 /* PlatoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C03046239591EB0017EA93 /* PlatoCollectionViewCell.swift */; };
+		64C03049239591F90017EA93 /* PedidoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C03048239591F90017EA93 /* PedidoCollectionViewCell.swift */; };
 		F3C038BC0C7C8F3E0AD6C6C1 /* Pods_SmartMenu1_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49828A8E56FBF284CE83CBF8 /* Pods_SmartMenu1_0Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +61,7 @@
 		04ADE5CB238893F00095454A /* SmartMenu1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartMenu1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ADE5CE238893F00095454A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ADE5D0238893F00095454A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04ADE5D2238893F00095454A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04ADE5D2238893F00095454A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		04ADE5D5238893F00095454A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04ADE5D7238893F20095454A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04ADE5DA238893F20095454A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,6 +78,11 @@
 		2619F0DD562405A461BA61CA /* Pods_SmartMenu1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartMenu1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BAA0C030E03E9002ED5D7 /* Pods-SmartMenu1.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMenu1.0Tests.debug.xcconfig"; path = "Target Support Files/Pods-SmartMenu1.0Tests/Pods-SmartMenu1.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		49828A8E56FBF284CE83CBF8 /* Pods_SmartMenu1_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartMenu1_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6456AE0D2395C64500286A15 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		64C03042239577760017EA93 /* Plato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plato.swift; sourceTree = "<group>"; };
+		64C0304423958EA50017EA93 /* Pedido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedido.swift; sourceTree = "<group>"; };
+		64C03046239591EB0017EA93 /* PlatoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatoCollectionViewCell.swift; sourceTree = "<group>"; };
+		64C03048239591F90017EA93 /* PedidoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidoCollectionViewCell.swift; sourceTree = "<group>"; };
 		79A94DAB1C50C05DBA33E61C /* Pods-SmartMenu1.0-SmartMenu1.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMenu1.0-SmartMenu1.0UITests.debug.xcconfig"; path = "Target Support Files/Pods-SmartMenu1.0-SmartMenu1.0UITests/Pods-SmartMenu1.0-SmartMenu1.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		965FF317993E628C4F5C5DE6 /* Pods-SmartMenu1.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMenu1.0Tests.release.xcconfig"; path = "Target Support Files/Pods-SmartMenu1.0Tests/Pods-SmartMenu1.0Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CA922DB0A8478C9378A5ACBB /* Pods_SmartMenu1_0_SmartMenu1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartMenu1_0_SmartMenu1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,15 +148,20 @@
 				0486311D238E3DB300DAA02C /* Loader.swift */,
 				04863117238E3BFE00DAA02C /* NetworkManager.swift */,
 				04863119238E3D9800DAA02C /* NetworkServices.swift */,
-				04ADE5D2238893F00095454A /* ViewController.swift */,
-				04ADE5D4238893F00095454A /* Main.storyboard */,
-				04ADE5D7238893F20095454A /* Assets.xcassets */,
-				04ADE5D9238893F20095454A /* LaunchScreen.storyboard */,
-				04ADE5DC238893F20095454A /* Info.plist */,
+				04ADE5D2238893F00095454A /* Login.swift */,
 				04B4965223945EC100C8960A /* Menu.swift */,
 				042156E42394EB050061FE59 /* List.swift */,
 				042156E62394EB130061FE59 /* Historial.swift */,
 				042156E82394EB2A0061FE59 /* Pedir.swift */,
+				64C03042239577760017EA93 /* Plato.swift */,
+				64C0304423958EA50017EA93 /* Pedido.swift */,
+				04ADE5D4238893F00095454A /* Main.storyboard */,
+				04ADE5D7238893F20095454A /* Assets.xcassets */,
+				04ADE5D9238893F20095454A /* LaunchScreen.storyboard */,
+				04ADE5DC238893F20095454A /* Info.plist */,
+				64C03046239591EB0017EA93 /* PlatoCollectionViewCell.swift */,
+				64C03048239591F90017EA93 /* PedidoCollectionViewCell.swift */,
+				6456AE0D2395C64500286A15 /* Extension.swift */,
 			);
 			path = SmartMenu1.0;
 			sourceTree = "<group>";
@@ -431,15 +446,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C03049239591F90017EA93 /* PedidoCollectionViewCell.swift in Sources */,
 				042156E92394EB2A0061FE59 /* Pedir.swift in Sources */,
 				0486311A238E3D9800DAA02C /* NetworkServices.swift in Sources */,
-				04ADE5D3238893F00095454A /* ViewController.swift in Sources */,
+				04ADE5D3238893F00095454A /* Login.swift in Sources */,
 				04B4965323945EC100C8960A /* Menu.swift in Sources */,
 				0486311C238E3DAD00DAA02C /* AlertManager.swift in Sources */,
+				64C03047239591EB0017EA93 /* PlatoCollectionViewCell.swift in Sources */,
+				6456AE0E2395C64500286A15 /* Extension.swift in Sources */,
 				04ADE5CF238893F00095454A /* AppDelegate.swift in Sources */,
+				64C03043239577760017EA93 /* Plato.swift in Sources */,
 				04863118238E3BFE00DAA02C /* NetworkManager.swift in Sources */,
 				0486311E238E3DB300DAA02C /* Loader.swift in Sources */,
 				04ADE5D1238893F00095454A /* SceneDelegate.swift in Sources */,
+				64C0304523958EA50017EA93 /* Pedido.swift in Sources */,
 				042156E52394EB050061FE59 /* List.swift in Sources */,
 				042156E72394EB130061FE59 /* Historial.swift in Sources */,
 			);
@@ -616,7 +636,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XWL75WZNEB;
+				DEVELOPMENT_TEAM = 282XS8V2UV;
 				INFOPLIST_FILE = SmartMenu1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -635,7 +655,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XWL75WZNEB;
+				DEVELOPMENT_TEAM = 282XS8V2UV;
 				INFOPLIST_FILE = SmartMenu1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

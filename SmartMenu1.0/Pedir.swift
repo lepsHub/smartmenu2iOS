@@ -9,6 +9,7 @@
 import UIKit
 
 class Pedir: UIViewController {
+    var codigo: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
