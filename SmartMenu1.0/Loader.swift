@@ -24,9 +24,9 @@ class Loader {
         self.loaderImage = UIImageView()
         self.loaderImage.frame = CGRect(x: UIScreen.main.bounds.size.width / 2 - 30, y: UIScreen.main.bounds.size.height / 2 - 30, width: 60, height: 60)
         self.loaderImage.contentMode = .scaleAspectFit
-        self.loaderImage.animationImages = [R.image.loader(),R.image.loader1(),R.image.loader2(),R.image.loader3(),R.image.loader4(),R.image.loader5(),R.image.loader6(),R.image.loader7(),R.image.loader8(),R.image.loader9(),R.image.loader10(),R.image.loader11()] as? [UIImage]
-        self.loaderImage.animationDuration = 0.850
-        self.loaderImage.animationRepeatCount = 0
+//        self.loaderImage.animationImages = [R.image.loader(),R.image.loader1(),R.image.loader2(),R.image.loader3(),R.image.loader4(),R.image.loader5(),R.image.loader6(),R.image.loader7(),R.image.loader8(),R.image.loader9(),R.image.loader10(),R.image.loader11()] as? [UIImage]
+//        self.loaderImage.animationDuration = 0.850
+//        self.loaderImage.animationRepeatCount = 0
         self.loaderImage.startAnimating()
         self.loaderContainer.addSubview(self.loaderImage)
     }

@@ -6,7 +6,7 @@ target 'SmartMenu1.0' do
   use_frameworks!
 
   # Pods for SmartMenu1.0
-pod 'Alamofire', '~> 5.0.0-rc.3'
+pod 'Alamofire'
 pod 'IQKeyboardManagerSwift'
 pod 'netfox'
 pod 'SDWebImage'

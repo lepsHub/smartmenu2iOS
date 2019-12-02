@@ -25,7 +25,7 @@ class AlertManager {
         
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
-        let defaultAction = UIAlertAction(title: R.string.localizable.ok().uppercased(), style: .default, handler: nil)
+        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
         alertController.addAction(defaultAction)
         view.present(alertController, animated: true, completion: nil)
     }
@@ -63,37 +63,37 @@ class AlertManager {
         view?.present(alertController, animated: true, completion:nil)
     }
     
-    func ShowAlertViewWithDatePicker(vc: UIViewController,title:String, message:String, firstButtonnTitle:String, firstCompletion: @escaping AlertWithDatePickerCompletionBlock){
-        
-        let datePicker = UIDatePicker(frame: CGRect(x: 0, y: 70, width: vc.view.frame.size.width, height: 260))
-        datePicker.datePickerMode = UIDatePicker.Mode.dateAndTime
-        datePicker.minimumDate = Date()
-        
-        datePicker.addTarget(self, action: #selector(self.dateSelected(datePicker:)), for: UIControl.Event.valueChanged)
-        
-        let alertController = UIAlertController(title: title, message: message , preferredStyle: .actionSheet)
-        alertController.view.addSubview(datePicker)
-        
-        let recorderAction = UIAlertAction(title: firstButtonnTitle, style: .cancel) { (action) in
-            let currentDateTime = self.dateSelected(datePicker: datePicker)
-            firstCompletion(currentDateTime)
-        }
-        
-        alertController.addAction(recorderAction)
-        
-        let height:NSLayoutConstraint = NSLayoutConstraint(item: alertController.view, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 390)
-        alertController.view.addConstraint(height);
-        
-        vc.present(alertController, animated: true, completion: nil)
-    }
-    
-    @objc func dateSelected(datePicker:UIDatePicker) -> String{
-        
-        let format = DateFormatter()
-        format.dateFormat = R.string.localizable.dateFormat()
-        format.locale = Locale(identifier: R.string.localizable.formateLocale())
-        
-        return format.string(from: datePicker.date)
-    }
+//    func ShowAlertViewWithDatePicker(vc: UIViewController,title:String, message:String, firstButtonnTitle:String, firstCompletion: @escaping AlertWithDatePickerCompletionBlock){
+//
+//        let datePicker = UIDatePicker(frame: CGRect(x: 0, y: 70, width: vc.view.frame.size.width, height: 260))
+//        datePicker.datePickerMode = UIDatePicker.Mode.dateAndTime
+//        datePicker.minimumDate = Date()
+//
+//        datePicker.addTarget(self, action: #selector(self.dateSelected(datePicker:)), for: UIControl.Event.valueChanged)
+//
+//        let alertController = UIAlertController(title: title, message: message , preferredStyle: .actionSheet)
+//        alertController.view.addSubview(datePicker)
+//
+//        let recorderAction = UIAlertAction(title: firstButtonnTitle, style: .cancel) { (action) in
+//            let currentDateTime = self.dateSelected(datePicker: datePicker)
+//            firstCompletion(currentDateTime)
+//        }
+//
+//        alertController.addAction(recorderAction)
+//
+//        let height:NSLayoutConstraint = NSLayoutConstraint(item: alertController.view, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 390)
+//        alertController.view.addConstraint(height);
+//
+//        vc.present(alertController, animated: true, completion: nil)
+//    }
+//
+//    @objc func dateSelected(datePicker:UIDatePicker) -> String{
+//
+//        let format = DateFormatter()
+//        format.dateFormat = R.string.localizable.dateFormat()
+//        format.locale = Locale(identifier: R.string.localizable.formateLocale())
+//
+//        return format.string(from: datePicker.date)
+//    }
     
 }

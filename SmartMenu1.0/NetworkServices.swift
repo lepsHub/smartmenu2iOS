@@ -5,8 +5,6 @@ class NetworkServices {
     
     static let sharedInstance = NetworkServices()
     
-    var configuration = BuildConfigurations()
-    
     // MARK: - LOGIN
     
     /**

@@ -16,22 +16,25 @@ typealias CompletionBlock = (AnyObject?, AnyObject?) -> Void
 class NetworkManager {
     static let sharedInstance = NetworkManager()
     
+//    let manager = Alamofire.Session.default
+    
     class func isConnectedToNetwork() -> Bool {
-        let reachability: Reachability = Reachability.init()
-        if(reachability.connection == .none){
+        let reachilibity = try! Reachability()
+        
+        if reachilibity.connection == .unavailable{
             return false
-            
         }else{
-            
             return true
         }
     }
+    
+    
     let manager: Alamofire.SessionManager = {
 
-        
+
         let configuration = URLSessionConfiguration.default
         configuration.httpAdditionalHeaders = Alamofire.SessionManager.defaultHTTPHeaders
-        
+
         return Alamofire.SessionManager(
             configuration: configuration)
     }()
@@ -47,6 +50,7 @@ class NetworkManager {
         manager.request(urlString, method: method, parameters: params, encoding: JSONEncoding.default, headers: headers).responseJSON(completionHandler: { (response) in
             print("RESPONSE BODY  📩📩📩📩📩📩 --> ",response)
             completion(response.response?.statusCode as AnyObject, response.result.value as AnyObject)
+//            completion(response.result.)
         })
     }
 
